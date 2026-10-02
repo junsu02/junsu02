@@ -1,7 +1,7 @@
 # 안녕하세요, 김준수입니다 👋
 
 **문제를 정의하고, 직접 만들고, 숫자로 검증하는 백엔드 개발자**를 지향합니다.
-단국대학교 컴퓨터공학과 · 【졸업 예정 시기】
+단국대학교 컴퓨터공학과 · 2028년 2월 졸업 예정
 
 - 팀에서는 주로 **PM/팀장 + 백엔드**를 맡아 기획부터 배포까지 끌고 갑니다.
 - 기능 구현에서 끝내지 않고 **부하 테스트와 모니터링**으로 한계를 확인합니다.
@@ -62,7 +62,7 @@
 ---
 
 ### 🚑 [SuperSave](https://github.com/Programming-G1/supersave) — 응급실 뺑뺑이 방지 서비스
-`【기간】` · PM / Backend
+· PM / Backend
 
 공공데이터의 실시간 병상 정보를 기반으로 응급실을 추천하고, AI 응급 가이드를 제공하는 서비스
 
@@ -75,7 +75,7 @@
 ---
 
 ### 🎓 [수강신청 연습 사이트](https://github.com/lab412sugang2/sugang) — 단국대 수강신청 화면 재현
-`【기간】` · Backend · [라이브 사이트](https://sugang-5de3.onrender.com)
+· Backend · [라이브 사이트](https://sugang-5de3.onrender.com)
 
 수강신청 흐름을 그대로 연습할 수 있는 사이트. 신청 규칙 검증부터 부하 테스트까지 진행
 
@@ -88,7 +88,7 @@
 ---
 
 ### 📡 [Anti-Drone Radar](https://github.com/junsu02/anti-drone-radar) — 드론 탐지 헬멧 임베디드 시스템
-`【기간】` · 【역할】
+· 
 
 드론 통신 주파수 대역을 실시간 스캔해 위협 전파를 탐지하고 LED·부저로 경고하는 시스템
 
@@ -101,5 +101,6 @@
 
 ## 📫 Contact
 
-- Email: 【이메일】
-- Blog / Portfolio: 【링크】
+- Email: junsu020139@gmail.com
+- phone: 010-7224-0580
+

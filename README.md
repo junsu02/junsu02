@@ -79,11 +79,9 @@
 
 수강신청 흐름을 그대로 연습할 수 있는 사이트. 신청 규칙 검증부터 부하 테스트까지 진행
 
-- 학점 초과 · 시간표 충돌 · 정원 초과 · 중복 신청 방지 로직 【본인 담당 부분만 남기기】
-- k6로 동시 접속 100 → 1000 단계별 부하 테스트, Prometheus + Grafana로 p95/p99 · 커넥션 풀 관측
-- 【결과 수치 — 예: 동시 OOO명에서 p95 OOms, 병목 원인과 개선 내용】
+- 학점 초과 · 시간표 충돌 · 정원 초과 · 중복 신청 방지 로직 
 
-`Java` `Spring Boot 3` `JPA` `MySQL` `Docker` `Prometheus` `Grafana` `k6`
+`Java` `Spring Boot 3` `JPA` `MySQL` `Docker`
 
 ---
 

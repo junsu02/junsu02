@@ -48,6 +48,20 @@
 
 ## 📌 Projects
 
+### 📋 [part너](https://github.com/naverhood-DKU/student-council) — 학생회 회의 결정·업무 추적 서비스
+`2026.10.09 ~ 2026.10.16` · Backend / 기반 서비스 설계 · 5인 팀 · [라이브 사이트](https://council.naverhood.cloud)
+
+회의 녹음을 CLOVA Speech로 전사하고 CLOVA Studio(HCX-007)가 결정·업무 후보를 뽑으면, 회장이 승인한 업무를 부서와 다른 학생회로 전달해 끝날 때까지 추적하는 서비스 (NCP 배포)
+
+- 회의 → 결정 → 업무 → 그룹 간 요청으로 이어지는 기반 서비스 설계·구현(첫 커밋 169개 파일). AI는 후보만 내고 사람이 승인해야 확정되도록 상태 전이를 한곳에 모으고, AI 결과의 근거 발언 ID를 서버가 검증
+- 브라우저가 presigned URL로 비공개 NCP Object Storage에 직접 올리고 CLOVA Speech로 전사 (2분 27초 녹음 → 9.5초, 15문장)
+- 회의에서 담당을 말하지 않은 업무는 AI가 등록된 부서 중에서 고르고 이유를 남겨 "AI 지정"으로 표시, 회장이 승인 전에 확인
+- 분석 작업을 DB 큐(`SKIP LOCKED` + 임대)로 웹 서버와 Worker로 분리, 테스트 264개 (Testcontainers MySQL, 외부 API는 가짜 서버)
+
+`Java 21` `Spring Boot 4` `Spring Security` `JPA` `MySQL` `React` `TypeScript` `CLOVA Speech` `CLOVA Studio` `NCP`
+
+---
+
 ### 🎨 [MCMoments](https://github.com/chae-ring/2026_LIKELION_HACKATHON) — MCM 전용 AI 아트워크 디지털 보증서
 `2026.08.09 ~ 2026.08.19` · 팀장 / PM / Backend · **트랙상 수상**
 
